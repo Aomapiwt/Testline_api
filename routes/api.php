@@ -49,3 +49,4 @@ Route::get('testZipFile', 'Cal\CalculationController@testZipFile');
 Route::get('runExcel_SummaryBasis', 'Cal\MonthlyController@runExcel_SummaryBasis');
 Route::get('runExcel_IFRS9_CF', 'Cal\MonthlyController@runExcel_IFRS9_CF');
 Route::get('validateCustomerLose', 'Cal\JobController@validateCustomerLose');
+Route::get('callback','Line_WebhookController@index');
